@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MR Tex</title>
     <style>
+        /* Your existing styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -51,17 +52,6 @@
             color: #fff;
             text-decoration: none;
             font-weight: bold;
-            background-image: linear-gradient(to right, #3498db, #e74c3c);
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background 0.4s, color 0.4s;
-        }
-
-        nav ul li a:hover {
-            background-image: linear-gradient(to right, #e74c3c, #3498db);
-            color: #fff;
-            text-decoration: none;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
         }
 
         section {
@@ -120,14 +110,12 @@
             border-radius: 5px;
             font-weight: bold;
             transition: background 0.4s, color 0.4s;
-            margin-top: 10px;
         }
 
         .gradient-link:hover {
             background-image: linear-gradient(to right, #e74c3c, #3498db);
             color: #fff;
             text-decoration: none;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
         }
 
         footer {
@@ -135,11 +123,6 @@
             padding: 40px 20px;
             background-color: #282828;
             color: #fff;
-        }
-
-        .see-more {
-            text-align: center;
-            margin-top: 20px;
         }
     </style>
 </head>
@@ -161,41 +144,40 @@
 
 <section id="about-us" class="about-us">
     <h2>About Us</h2>
-    <p>Your Trusted Partner for Innovative Textile Solutions. Backed by extensive experience with top global brands, we offer tailored R&D and manufacturing services. Our team’s expertise ensures high-quality results, meeting your unique needs with precision and reliability 
-        <a href="/about-us" id="see-more-button" class="gradient-link">read more...</a>
-    </p>
+    <p>Your Trusted Partner for Innovative Textile Solutions. Backed by extensive experience with top global brands, we offer tailored R&D and manufacturing services. Our team’s expertise ensures high-quality results, meeting your unique needs with precision and reliability.</p>
+    <!-- Adding Read More Button -->
+    <p><a href="/about-us" class="gradient-link">Read more...</a></p>
 </section>
 
 <section id="products" class="product-performance">
     <h2>Product Performance</h2>
     <div>
-        <a data-fancybox="gallery" href="/images/products/P1.jpg"><img src="/images/products/P1.jpg" alt="Product 1"></a>
-        <a data-fancybox="gallery" href="/images/products/P2.jpg"><img src="/images/products/P2.jpg" alt="Product 2"></a>
-        <a data-fancybox="gallery" href="/images/products/P3.jpg"><img src="/images/products/P3.jpg" alt="Product 3"></a>
-        <a data-fancybox="gallery" href="/images/products/P4.jpg"><img src="/images/products/P4.jpg" alt="Product 4"></a>
+        <img src="/images/products/P1.jpg" alt="Product 1">
+        <img src="/images/products/P2.jpg" alt="Product 2">
+        <img src="/images/products/P3.jpg" alt="Product 3">
+        <img src="/images/products/P4.jpg" alt="Product 4">
     </div>
+    <!-- Adding See More Button -->
+    <p><a href="/products" class="gradient-link">See more...</a></p>
 </section>
-
-<div class="see-more">
-    <a href="/products" class="gradient-link">View products...</a>
-</div>
 
 <section id="clients" class="clients">
     <h2>Team Experience with Renowned Brands</h2>
     <div class="client-logos">
-        <a href="#"><img src="/images/uspa.png" alt="USPA"></a>
-        <a href="#"><img src="/images/buffalo.png" alt="Buffalo David Bitton"></a>
-        <a href="#"><img src="/images/cK.png" alt="CK"></a>
-        <a href="#"><img src="/images/max.png" alt="Max"></a>
+        <img src="/images/uspa.png" alt="USPA">
+        <img src="/images/buffalo.png" alt="Buffalo David Bitton">
+        <img src="/images/cK.png" alt="CK">
+        <img src="/images/max.png" alt="Max">
     </div>
-    <p><a href="/client" id="see-more-button" class="gradient-link">and others</a></p>
+    <!-- Adding See More Button -->
+    <p><a href="/client" class="gradient-link">See more...</a></p>
 </section>
 
 <footer id="contact">
     <h2>Contact Us</h2>
     <p>Reach out to us for collaboration or inquiries.</p>
     <a href="mailto:info@mrtex.com" class="gradient-link">Email Us</a>
-    <a href="https://wa.me/+8801712548608" class="gradient-link">WhatsApp</a>
+    <a href="https://wa.me/your-number" class="gradient-link">WhatsApp Us</a>
 </footer>
 
 </body>
